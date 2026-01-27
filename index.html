@@ -1,0 +1,478 @@
+<!-- index.html (FULL REVISED) -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Michael T. Baes • Portfolio</title>
+  <meta name="description" content="Portfolio of John Michael T. Baes — Web Development, Roblox Game Development, IT & Network Support, Photoshop." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Navbar -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span class="brand-text">PlayHaus Studio</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn ghost" id="themeBtn" type="button" aria-label="Toggle theme">Theme</button>
+        <a class="btn primary" href="#contact">Hire / Contact</a>
+        <button class="burger" id="burger" type="button" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container hero-grid">
+
+        <!-- LEFT -->
+        <div class="reveal">
+          <p class="pill">Filipino • Batangas • IT / Dev</p>
+
+          <!-- Animated Welcome -->
+          <div class="welcome-wrap">
+            <div class="welcome-kicker">WELCOME</div>
+            <h1 class="welcome-title">
+              <span class="welcome-shine">WELCOME TO MY PORTFOLIO WEBSITE</span>
+            </h1>
+            <p class="welcome-sub muted">
+              Explore my work by category — modern UI, smooth animations, clean presentation.
+            </p>
+          </div>
+
+          <!-- Your name -->
+          <h2 class="headline" style="margin-top:14px;">
+            John Michael <span class="grad">T. Baes</span>
+          </h2>
+
+          <p class="subhead">
+            Web Developer • Roblox Game Developer • IT & Network Support • Photoshop
+          </p>
+
+          <!-- Tabs + Animated Gallery -->
+          <div class="tabbar-wrap">
+            <div class="tabbar" role="tablist" aria-label="Portfolio categories">
+              <button class="tab active" type="button" role="tab" aria-selected="true" data-filter="roblox">Roblox Dev</button>
+              <button class="tab" type="button" role="tab" aria-selected="false" data-filter="photoshop">Photoshop</button>
+              <button class="tab" type="button" role="tab" aria-selected="false" data-filter="web">Web Dev</button>
+              <button class="tab" type="button" role="tab" aria-selected="false" data-filter="support">Technical Support</button>
+              <button class="tab tab-all" type="button" role="tab" aria-selected="false" data-filter="all">All</button>
+            </div>
+
+            <div class="gallery" id="gallery">
+              <!-- Placeholder “fake screenshots” (replace later with real images) -->
+              <a class="g-item" href="#projects" data-tags="roblox" aria-label="Roblox UI & Systems">
+                <div class="g-media g-roblox"></div>
+                <div class="g-meta">
+                  <div class="g-title">Roblox UI & Systems</div>
+                  <div class="g-desc">Quests • Coins • Optimized scripts</div>
+                </div>
+              </a>
+
+              <a class="g-item" href="#projects" data-tags="photoshop" aria-label="Photoshop Branding Set">
+                <div class="g-media g-ps"></div>
+                <div class="g-meta">
+                  <div class="g-title">Branding & Thumbnails</div>
+                  <div class="g-desc">Logos • Social posts • Icons</div>
+                </div>
+              </a>
+
+              <a class="g-item" href="#projects" data-tags="web" aria-label="Modern Web UI">
+                <div class="g-media g-web"></div>
+                <div class="g-meta">
+                  <div class="g-title">Modern Web UI</div>
+                  <div class="g-desc">Responsive • Clean components</div>
+                </div>
+              </a>
+
+              <a class="g-item" href="#projects" data-tags="support" aria-label="Tech & Network Support">
+                <div class="g-media g-it"></div>
+                <div class="g-meta">
+                  <div class="g-title">Tech & Network Support</div>
+                  <div class="g-desc">Setup • Troubleshoot • Document</div>
+                </div>
+              </a>
+
+              <a class="g-item" href="#projects" data-tags="roblox web" aria-label="Roblox + Web Integration">
+                <div class="g-media g-mix"></div>
+                <div class="g-meta">
+                  <div class="g-title">Roblox + Web</div>
+                  <div class="g-desc">Showcase pages • Portals</div>
+                </div>
+              </a>
+
+              <a class="g-item" href="#projects" data-tags="photoshop web" aria-label="Design Systems">
+                <div class="g-media g-ui"></div>
+                <div class="g-meta">
+                  <div class="g-title">Design Systems</div>
+                  <div class="g-desc">UI kits • Modern layouts</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="gallery-hint muted">
+              Tip: Click a card to jump to Projects. Replace placeholders with your real screenshots later.
+            </div>
+          </div>
+
+          <!-- Your existing hero cards -->
+          <div class="hero-cards">
+            <div class="mini-card">
+              <div class="mini-title">Experience Focus</div>
+              <div class="mini-value">IT Support & Networking</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-title">Creative</div>
+              <div class="mini-value">Adobe Photoshop</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-title">Development</div>
+              <div class="mini-value">Web + Roblox</div>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#about">About Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-k">Phone</span>
+              <a class="meta-v" href="tel:+639169964432">0916-996-4432</a>
+            </div>
+            <div class="meta-item">
+              <span class="meta-k">Gmail</span>
+              <a class="meta-v" href="mailto:baesmichael5@gmail.com">baesmichael5@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="profile-card reveal">
+          <div class="profile-top">
+            <div class="badge">Available</div>
+          </div>
+
+          <div class="profile-photo">
+            <img src="images/john.png" alt="John Michael T. Baes"
+              onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%2312172a%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23aab4c5%22 font-family=%22Arial%22 font-size=%2216%22>Put your photo in assets/profile.jpg</text></svg>';" />
+          </div>
+
+          <div class="profile-info">
+            <h2>Profile</h2>
+            <p class="muted">
+              I build reliable systems and clean interfaces — from web projects to Roblox experiences —
+              with strong IT & network support fundamentals.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-k">Age</div>
+                <div class="stat-v">30</div>
+              </div>
+              <div class="stat">
+                <div class="stat-k">Height</div>
+                <div class="stat-v">5'8"</div>
+              </div>
+              <div class="stat">
+                <div class="stat-k">Weight</div>
+                <div class="stat-v">80 kg</div>
+              </div>
+              <div class="stat">
+                <div class="stat-k">Birthday</div>
+                <div class="stat-v">Aug 5, 1995</div>
+              </div>
+            </div>
+
+            <a class="btn subtle" href="https://drive.google.com/file/d/1zKDXqU4_o9fDKpDpevcNG5LTNFVz5DBO/view?usp=sharing">Download CV (sample)</a>
+            <p class="hint">Tip: Replace this with your real CV link later.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About</h2>
+          <p class="muted">A quick overview based on your profile details.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>Summary</h3>
+            <p>
+              I’m <strong>John Michael T. Baes</strong>, a Filipino professional with hands-on experience in
+              <strong>IT Support</strong>, <strong>Network Support</strong>, <strong>Web Development</strong>,
+              and <strong>Roblox Game Development</strong>. I also have strong creative capability using
+              <strong>Adobe Photoshop</strong>.
+            </p>
+            <div class="chips">
+              <span class="chip">Problem Solver</span>
+              <span class="chip">Tech Support</span>
+              <span class="chip">Web UI</span>
+              <span class="chip">Roblox</span>
+              <span class="chip">Design</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Personal Information</h3>
+            <div class="info-list">
+              <div class="info-row"><span>Name</span><span>John Michael T. Baes</span></div>
+              <div class="info-row"><span>Nationality</span><span>Filipino</span></div>
+              <div class="info-row"><span>Birthplace</span><span>Philippines</span></div>
+              <div class="info-row"><span>Contact</span><span>0916-996-4432</span></div>
+              <div class="info-row"><span>Email</span><span>baesmichael5@gmail.com</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p class="muted">Experience years + visual proficiency bars (editable).</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <div class="skill">
+              <div class="skill-top">
+                <span>IT Support</span><span class="muted">5 years</span>
+              </div>
+              <div class="bar"><div class="fill" style="--w: 92%"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>Adobe Photoshop</span><span class="muted">5 years</span>
+              </div>
+              <div class="bar"><div class="fill" style="--w: 90%"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>Network Support</span><span class="muted">3 years</span>
+              </div>
+              <div class="bar"><div class="fill" style="--w: 82%"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>Roblox Game Developer</span><span class="muted">3 years</span>
+              </div>
+              <div class="bar"><div class="fill" style="--w: 80%"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>Web Development</span><span class="muted">1 year</span>
+              </div>
+              <div class="bar"><div class="fill" style="--w: 70%"></div></div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Tools & Areas</h3>
+            <ul class="list">
+              <li>PC troubleshooting, OS installation, user support</li>
+              <li>Networking basics: routing, IP, troubleshooting connectivity</li>
+              <li>Web: HTML / CSS / JavaScript (portfolio & small web apps)</li>
+              <li>Roblox Studio: game systems, UI, scripting</li>
+              <li>Design: logos, thumbnails, social graphics</li>
+            </ul>
+            <div class="note">
+              Want this more “premium”? Add real screenshots and links in Projects.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Education</h2>
+          <p class="muted">Your academic background.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Porfirio G. Comia Memorial National High School</h3>
+              <p class="muted">High School</p>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Batangas Eastern College</h3>
+              <p class="muted">BSIS (Bachelor of Science in Information Systems)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p class="muted">Premium sample projects (replace with your real work + links).</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="tag">Web</span>
+              <span class="tag ghost">HTML • CSS • JS</span>
+            </div>
+            <h3>Modern Ordering Website (Sample)</h3>
+            <p class="muted">
+              A responsive ordering site concept with product cards, cart flow, and admin-ready layout.
+            </p>
+            <div class="project-actions">
+              <a class="btn subtle" href="#" onclick="return demoLink(event)">Live Demo</a>
+              <a class="btn ghost" href="coming-soon.html">IT Details</a>
+
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="tag">Roblox</span>
+              <span class="tag ghost">Lua • UI • Systems</span>
+            </div>
+            <h3>Roblox Game System Pack (Sample)</h3>
+            <p class="muted">
+              Example: daily quests, leaderboard coins, UI popups, and optimized client/server scripts.
+            </p>
+            <div class="project-actions">
+              <a class="btn subtle" href="#" onclick="return demoLink(event)">Gameplay</a>
+              <a class="btn ghost" href="showcase-roblox-pack.html">Showcase</a>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="tag">IT / Network</span>
+              <span class="tag ghost">Support • Setup</span>
+            </div>
+            <h3>Small Office Network Setup (Sample)</h3>
+            <p class="muted">
+              Documentation-style project: router config, internet sharing, troubleshooting checklist.
+            </p>
+            <div class="project-actions">
+              <a class="btn subtle" href="#" onclick="return demoLink(event)">Read</a>
+              <a class="btn ghost" href="it-details.html">IT Details</a>
+  
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-top">
+              <span class="tag">Design</span>
+              <span class="tag ghost">Photoshop</span>
+            </div>
+            <h3>Branding & Thumbnails (Sample)</h3>
+            <p class="muted">
+              Premium visual set: logo concepts, social posts, Roblox icons, and clean brand layouts.
+            </p>
+            <div class="project-actions">
+              <a class="btn subtle" href="#" onclick="return demoLink(event)">Gallery</a>
+              <a class="btn ghost" href="photoshop-details.html">About</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p class="muted">Let’s work together — message me anytime.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>Direct</h3>
+            <div class="contact-list">
+              <a class="contact-item" href="tel:+639169964432">
+                <span class="ci-k">Phone</span>
+                <span class="ci-v">0916-996-4432</span>
+              </a>
+              <a class="contact-item" href="mailto:baesmichael5@gmail.com">
+                <span class="ci-k">Email</span>
+                <span class="ci-v">baesmichael5@gmail.com</span>
+              </a>
+              <div class="contact-item no-link">
+                <span class="ci-k">Location</span>
+                <span class="ci-v">Philippines</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Quick Message</h3>
+            <form id="contactForm">
+              <div class="form-row">
+                <label>Name</label>
+                <input type="text" id="fName" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label>Email</label>
+                <input type="email" id="fEmail" placeholder="your@email.com" required />
+              </div>
+              <div class="form-row">
+                <label>Message</label>
+                <textarea id="fMsg" rows="4" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button class="btn primary" type="submit">Send Message</button>
+              <p class="hint" id="formHint"></p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted">© <span id="year"></span> John Michael T. Baes • All rights reserved.</p>
+          <a class="to-top" href="#top">Back to top ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

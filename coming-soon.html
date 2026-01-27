@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coming Soon • JMTB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-glow"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-dot"></span>
+        <span class="brand-text">JMTB</span>
+      </a>
+
+      <nav class="nav-links open" style="display:flex;">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn ghost" href="index.html">← Back</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Coming Soon Section -->
+  <main>
+    <section class="section" style="min-height:80vh; display:flex; align-items:center;">
+      <div class="container">
+        <div class="card reveal show" style="text-align:center; max-width:640px; margin:auto;">
+          
+          <p class="pill" style="margin-bottom:14px;">
+            🚧 Under Development
+          </p>
+
+          <h1 style="margin:0 0 12px; font-size:36px;">
+            Coming <span class="grad">Soon</span>
+          </h1>
+
+          <p class="muted" style="font-size:16px; line-height:1.6;">
+            This page or feature is currently being built.  
+            I’m working on something awesome — stay tuned!
+          </p>
+
+          <div class="chips" style="margin-top:16px; justify-content:center;">
+            <span class="chip">Roblox Projects</span>
+            <span class="chip">Web Development</span>
+            <span class="chip">Game Systems</span>
+          </div>
+
+          <div class="project-actions" style="margin-top:22px; justify-content:center;">
+            <a class="btn primary" href="index.html#contact">
+              Contact Me
+            </a>
+            
+          </div>
+
+          <p class="hint" style="margin-top:16px;">
+            © <span id="year"></span> John Michael T. Baes
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
