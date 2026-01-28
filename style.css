@@ -496,4 +496,19 @@ input:focus, textarea:focus{
   }
   .nav-links.open{ display:flex; }
   .burger{ display:inline-flex; flex-direction:column; justify-content:center; }
+  
 }
+.contact-cta{
+  text-align:center;
+}
+
+.contact-now{
+  margin-top:14px;
+  height:56px;
+  padding:0 28px;
+  font-size:15px;
+  font-weight:900;
+  border-radius:18px;
+  box-shadow: 0 12px 40px rgba(124,58,237,.35);
+}
+
