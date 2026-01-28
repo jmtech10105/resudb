@@ -1,4 +1,5 @@
 <!-- index.html (FULL REVISED) -->
+ 
 <!doctype html>
 <html lang="en">
 <head>
@@ -130,7 +131,7 @@
             </div>
 
             <div class="gallery-hint muted">
-             
+              Tip: Click a card to jump to Projects. Replace placeholders with your real screenshots later.
             </div>
           </div>
 
@@ -205,7 +206,6 @@
             </div>
 
             <a class="btn subtle" href="https://drive.google.com/file/d/1zKDXqU4_o9fDKpDpevcNG5LTNFVz5DBO/view?usp=sharing">Download CV (sample)</a>
-            <p class="hint">Tip: Replace this with your real CV link later.</p>
           </div>
         </div>
 
@@ -444,26 +444,24 @@
             </div>
           </div>
 
-          <div class="card reveal">
-            <h3>Quick Message</h3>
-            <form id="contactForm">
-              <div class="form-row">
-                <label>Name</label>
-                <input type="text" id="fName" placeholder="Your name" required />
-              </div>
-              <div class="form-row">
-                <label>Email</label>
-                <input type="email" id="fEmail" placeholder="your@email.com" required />
-              </div>
-              <div class="form-row">
-                <label>Message</label>
-                <textarea id="fMsg" rows="4" placeholder="Tell me about your project..." required></textarea>
-              </div>
-              <button class="btn primary" type="submit">Send Message</button>
-              <p class="hint" id="formHint"></p>
-            </form>
-          </div>
-        </div>
+          <div class="card reveal contact-cta">
+  <h3>Contact Me</h3>
+  <p class="muted">
+    Ready to work together? Click the button below to message me directly on Gmail.
+  </p>
+
+  <a
+    class="btn primary contact-now"
+    href="mailto:baesmichael5@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20John,%0A%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you.%0A%0AThanks!"
+  >
+    Contact Now
+  </a>
+
+  <p class="hint">
+    Opens your email app with a pre-filled message.
+  </p>
+</div>
+
 
         <footer class="footer">
           <p class="muted">© <span id="year"></span> John Michael T. Baes • All rights reserved.</p>
@@ -476,4 +474,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
